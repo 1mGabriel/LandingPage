@@ -1,0 +1,61 @@
+body{
+    padding: 50px;
+    background-image: url("./images/backgroundLp.png");
+}
+.container{
+
+    background-color: #131212f1;
+    width: 500px;
+    border-radius: 20px;
+}
+.form{
+    padding: 20px;
+}
+.img-container{
+
+    justify-content: center;
+    padding: 20px;
+}
+#logo{
+    height: 40px;
+}
+.paragraph{
+    color: aliceblue;
+}
+.button-container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:#131212f1 ;
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+
+}
+@Media(max-width: 320px) {
+    .footer{
+        text-align: center;
+        justify-content: center;
+    }
+    body{
+        padding: 0px;
+        width:320px;
+        justify-content: center;
+
+    }
+    .container{
+        width: 260px;
+        padding: 0px;
+        box-sizing: border-box;
+        
+    }
+}
+@media (max-width:2560px) {
+    body{
+        background-size: cover;
+    }
+    
+}
+    
